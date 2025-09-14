@@ -1,0 +1,304 @@
+{
+	"info": {
+		"_postman_id": "c593879f-2bc8-41c9-98ff-06db60952d86",
+		"name": "Salfok API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45292509",
+		"_collection_link": "https://maulanarifki.postman.co/workspace/Maulana-Rifki's-Workspace~0f366e99-2ce5-4e2a-864d-7fc3a98882a2/collection/45292509-c593879f-2bc8-41c9-98ff-06db60952d86?action=share&source=collection_link&creator=45292509"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev.salfok.com/business/login",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"salfok",
+						"com"
+					],
+					"path": [
+						"business",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.salfok.com/business/products",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"salfok",
+						"com"
+					],
+					"path": [
+						"business",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Creat Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.salfok.com/business/products/creat",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"salfok",
+						"com"
+					],
+					"path": [
+						"business",
+						"products",
+						"creat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.salfok.com/business/products/68c3eb7699df8763bee5dc41",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"salfok",
+						"com"
+					],
+					"path": [
+						"business",
+						"products",
+						"68c3eb7699df8763bee5dc41"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Discount",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.salfok.com/business/discounts",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"salfok",
+						"com"
+					],
+					"path": [
+						"business",
+						"discounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Creat Discount",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.salfok.com/business/discounts/create",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"salfok",
+						"com"
+					],
+					"path": [
+						"business",
+						"discounts",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Discount",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.salfok.com/business/discounts/edit/68c3a24172e1b046333ae827",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"salfok",
+						"com"
+					],
+					"path": [
+						"business",
+						"discounts",
+						"edit",
+						"68c3a24172e1b046333ae827"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Vouchers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.salfok.com/business/vouchers",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"salfok",
+						"com"
+					],
+					"path": [
+						"business",
+						"vouchers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Creat Voucher",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.salfok.com/business/vouchers/create",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"salfok",
+						"com"
+					],
+					"path": [
+						"business",
+						"vouchers",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Vouchers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.salfok.com/business/vouchers/edit/68c3e38499df8763bee59f1b",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"salfok",
+						"com"
+					],
+					"path": [
+						"business",
+						"vouchers",
+						"edit",
+						"68c3e38499df8763bee59f1b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Bank Acount",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.salfok.com/business/bank-accounts",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"salfok",
+						"com"
+					],
+					"path": [
+						"business",
+						"bank-accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dashboard",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.salfok.com/business/dashboard",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"salfok",
+						"com"
+					],
+					"path": [
+						"business",
+						"dashboard"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.salfok.com/business/register",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"salfok",
+						"com"
+					],
+					"path": [
+						"business",
+						"register"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
